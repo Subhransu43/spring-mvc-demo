@@ -4,7 +4,7 @@
 		<title>Spring Form</title>
 	</head>
 	<body>
-		<form action="processForm" method="GET">
+		<form action="processFormVersion2" method="GET">
 			<input type="text" name="studentName" placeholder="What is your Name?" />
 			<input type="submit" />
 		</form>
