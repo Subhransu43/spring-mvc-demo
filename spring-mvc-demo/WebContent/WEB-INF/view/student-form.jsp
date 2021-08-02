@@ -11,10 +11,7 @@
 			Last Name : <form:input path="lastName"/>
 			<br><br>
 			<form:select path="country">
-				<form:option value="Brazil" lable="Brazil"/>
-				<form:option value="Germany" lable="Germany"/>
-				<form:option value="India" lable="India"/>
-				<form:option value="UK" lable="UK"/>
+				<form:options items="${student.countryOptions}"/>
 			</form:select>
 			<br><br>
 			<input type="submit" value="Submit" />
