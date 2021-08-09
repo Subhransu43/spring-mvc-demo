@@ -8,6 +8,7 @@ public class Student {
 	private String lastName;
 	private String country;
 	private LinkedHashMap<String, String> countryOptions;
+	private String[] preferredOS;
 	
 	public Student() {
 		//Populating the countery options hash map
@@ -45,6 +46,14 @@ public class Student {
 
 	public LinkedHashMap<String, String> getCountryOptions() {
 		return countryOptions;
+	}
+
+	public String[] getPreferredOS() {
+		return preferredOS;
+	}
+
+	public void setPreferredOS(String[] preferredOS) {
+		this.preferredOS = preferredOS;
 	}
 	
 }
